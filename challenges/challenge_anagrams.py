@@ -1,5 +1,4 @@
 def merge_sort(numbers, start=0, end=None):
-    """Faça o código aqui."""
     if end is None:
         end = len(numbers)
     if (end - start) > 1:
@@ -11,7 +10,6 @@ def merge_sort(numbers, start=0, end=None):
 
 
 def merge(numbers, start, mid, end):
-    """Faça o código aqui."""
     left = numbers[start:mid]
     right = numbers[mid:end]
 
@@ -33,8 +31,6 @@ def merge(numbers, start, mid, end):
 
 
 def is_anagram(first_string, second_string):
-    """Faça o código aqui."""
-
     first_word = first_string.lower()
     second_word = second_string.lower()
 
